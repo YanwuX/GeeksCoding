@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;geeksForGeeks.lis.java&apos; to &apos;LIS.java&apos;&#x0D;&#x0A;- Original project: &apos;geeksCoding&apos;&#x0D;&#x0A;- Original element: &apos;geeksForGeeks.lis.java&apos;&#x0D;&#x0A;- Renamed element: &apos;geeksForGeeks.LIS.java&apos;" description="Rename compilation unit &apos;lis.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;geeksForGeeks{lis.java" name="LIS.java" references="false" stamp="1467794771378" version="1.0"/>
+</session>
