@@ -1,0 +1,35 @@
+package leetCode;
+
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+public class LRU {
+	
+    private LinkedHashMap<Integer, Integer> map;
+    private final int CAPACITY;
+    
+    public LRU(int capacity) {
+        CAPACITY = capacity;
+        map = new LinkedHashMap<Integer, Integer>(capacity, 1.0f, true){
+            protected boolean removeEldestEntry(Map.Entry eldest) {
+                return size() > CAPACITY;
+            }
+        };
+    }
+    public int get(int key) {
+        return map.getOrDefault(key, -1);
+    }
+    public void set(int key, int value) {
+        map.put(key, value);
+    }
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		LRU lru = new LRU(5);
+		lru.set(1, 1);
+		lru.set(2, 2);
+		lru.set(3, 3);
+		lru.set(4, 4);
+		lru.set(5, 5);
+	}
+
+}
