@@ -32,5 +32,5 @@ public class twoSums {
 		// TODO Auto-generated method stub
 		toString(twoSum(new int[] {2,7,11,15}, 9));
 	}
-	
+
 }
