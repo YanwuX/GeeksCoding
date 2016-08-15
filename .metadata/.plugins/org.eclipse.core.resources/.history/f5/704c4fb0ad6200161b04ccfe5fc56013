@@ -1,0 +1,19 @@
+package funTryOuts;
+
+import funTryOuts.XmlReaderJAXB.TestDataJAXB;
+
+public class XmlReaderDAO {
+
+	public static void readFromXML(Tests xr, XmlReaderJAXB xb) {
+		xr.setGeneral(xb.getGeneral());
+		xr.setGeneralBook(xb.getGeneralBook());
+		
+
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

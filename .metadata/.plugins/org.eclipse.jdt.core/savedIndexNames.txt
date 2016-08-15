@@ -11,7 +11,6 @@ INDEX VERSION 1.129+C:\Users\Yanwu\Documents\GitHub\GeeksCoding\.metadata\.plugi
 430205200.index
 1670528678.index
 4236009997.index
-53777834.index
 2945162093.index
 47423239.index
 3678980623.index

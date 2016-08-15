@@ -1,0 +1,34 @@
+package funTryOuts;
+
+import java.io.File;
+
+import javax.xml.bind.JAXBContext;
+import javax.xml.bind.JAXBException;
+import javax.xml.bind.Marshaller;
+import javax.xml.bind.Unmarshaller;
+
+import funTryOuts.XmlReaderJAXB.TestDataJAXB;
+
+public class XmlReaderDAO {
+
+	public static void readFromXML(Tests xr, XmlReaderJAXB xb) {
+		xr.setGeneral(xb.getGeneral());
+		xr.setGeneralBook(xb.getGeneralBook());
+		
+
+	}
+	
+	public static void main(String[] args) throws JAXBException {
+		
+		JAXBContext jc = JAXBContext.newInstance(XmlReaderJAXB.class);
+
+        Unmarshaller unmarshaller = jc.createUnmarshaller();
+        File xml = new File("src/XmlReader.xml");
+        XmlReaderJAXB tests = (XmlReaderJAXB) unmarshaller.unmarshal(xml);
+
+        Marshaller marshaller = jc.createMarshaller();
+        marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
+        marshaller.marshal(tests, System.out);		
+	}
+
+}

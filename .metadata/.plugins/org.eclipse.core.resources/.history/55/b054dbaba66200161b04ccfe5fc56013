@@ -1,0 +1,14 @@
+package funTryOuts;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class xmlReader {
+	
+	private String general;
+	private String generalBook;
+	
+	private List<> testDatas = new ArrayList<>();
+	
+	
+}
