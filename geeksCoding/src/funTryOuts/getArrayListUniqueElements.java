@@ -2,7 +2,7 @@ package funTryOuts;
 
 import java.util.ArrayList;
 
-public class getArrayListUniqueElements {
+public class GetArrayListUniqueElements {
 	// get unique elements from array list and return itself as a updated array list
 	public static ArrayList<String> getUniques(ArrayList<String> l){
 		for(int i = 0; i < l.size(); i++) {
