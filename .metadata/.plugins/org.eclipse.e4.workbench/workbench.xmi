@@ -317,15 +317,17 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_ljcTD1utEea8QfNkyi-kWA" elementId="org.eclipse.ui.editorss" selectedElement="_ljcTEFutEea8QfNkyi-kWA">
-      <children xsi:type="basic:PartStack" xmi:id="_ljcTEFutEea8QfNkyi-kWA" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_dT_UgGUIEeavGPmaBz0oCA">
+      <children xsi:type="basic:PartStack" xmi:id="_ljcTEFutEea8QfNkyi-kWA" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_qyBTAGKvEeasQZZxWWPnMQ">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
         <tags>active</tags>
         <children xsi:type="basic:Part" xmi:id="_qyBTAGKvEeasQZZxWWPnMQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="XmlReaderDAO.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;XmlReaderDAO.java&quot; partName=&quot;XmlReaderDAO.java&quot; title=&quot;XmlReaderDAO.java&quot; tooltip=&quot;geeksCoding/src/sampleJAXB/XmlReaderDAO.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/geeksCoding/src/sampleJAXB/XmlReaderDAO.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;636&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;XmlReaderDAO.java&quot; partName=&quot;XmlReaderDAO.java&quot; title=&quot;XmlReaderDAO.java&quot; tooltip=&quot;geeksCoding/src/sampleJAXB/XmlReaderDAO.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/geeksCoding/src/sampleJAXB/XmlReaderDAO.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;444&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
           <tags>removeOnHide</tags>
+          <tags>active</tags>
+          <tags>activeOnClose</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_A6OAgGNxEeaf7cdrcbuOdA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="PrintKthElementInSpiralFormOfMatrix.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;PrintKthElementInSpiralFormOfMatrix.java&quot; partName=&quot;PrintKthElementInSpiralFormOfMatrix.java&quot; title=&quot;PrintKthElementInSpiralFormOfMatrix.java&quot; tooltip=&quot;geeksCoding/src/geeksForGeeks/PrintKthElementInSpiralFormOfMatrix.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/geeksCoding/src/geeksForGeeks/PrintKthElementInSpiralFormOfMatrix.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1211&quot; selectionTopPixel=&quot;516&quot;/>&#xD;&#xA;&lt;/editor>"/>
@@ -338,14 +340,6 @@
           <tags>Editor</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
           <tags>removeOnHide</tags>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_dT_UgGUIEeavGPmaBz0oCA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="jsonSkipper.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;jsonSkipper.java&quot; partName=&quot;jsonSkipper.java&quot; title=&quot;jsonSkipper.java&quot; tooltip=&quot;geeksCoding/src/jsonSkipper/jsonSkipper.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/geeksCoding/src/jsonSkipper/jsonSkipper.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;242&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
-          <tags>removeOnHide</tags>
-          <tags>active</tags>
-          <tags>activeOnClose</tags>
         </children>
       </children>
     </sharedElements>
@@ -799,7 +793,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_ljc591utEea8QfNkyi-kWA" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_96osAGUHEeavGPmaBz0oCA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_ljewiVutEea8QfNkyi-kWA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_0U5-IGm4EeaK254pbZ4hyA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_ljewiVutEea8QfNkyi-kWA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_ljc6BFutEea8QfNkyi-kWA" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -832,7 +826,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_ljc6bVutEea8QfNkyi-kWA" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_96rIQGUHEeavGPmaBz0oCA" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_ljewLlutEea8QfNkyi-kWA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_0U-2oGm4EeaK254pbZ4hyA" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_ljewLlutEea8QfNkyi-kWA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_ljc6eFutEea8QfNkyi-kWA" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
