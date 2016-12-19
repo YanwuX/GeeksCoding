@@ -1,6 +1,6 @@
 package geeksForGeeks;
 
-public class longestIncreasingSubsequences {
+public class LongestIncreasingSubsequences {
 	// O(n^2) solution
 	 /* lis() returns the length of the longest increasing
     subsequence in arr[] of size n */

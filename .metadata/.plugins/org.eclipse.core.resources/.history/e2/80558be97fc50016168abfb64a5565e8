@@ -9,7 +9,7 @@ public class replaceSpaces {
 	}
 	
 	public static String replaceWhiteSpaces(String str) {
-		return str.replaceAll(" ", "%20");
+		return str.replaceAll("a", "%20");
 	}
 
 }
