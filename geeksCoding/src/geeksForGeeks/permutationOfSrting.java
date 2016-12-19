@@ -2,7 +2,7 @@ package geeksForGeeks;
 
 import java.util.HashSet;
 
-public class PermutationOfSrting {
+public class permutationOfSrting {
 	public static void printPerm(String str) {
 	    getPerm("", str);
 	    

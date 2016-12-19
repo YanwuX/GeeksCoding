@@ -2,7 +2,7 @@ package leetCode;
 
 import java.util.Arrays;
 
-public class TwoSums {
+public class twoSums {
 	
 	public static int[] twoSum(int[] nums, int target) {
         int n = nums.length;
