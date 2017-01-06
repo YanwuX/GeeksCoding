@@ -1,6 +1,6 @@
 package geeksForGeeks;
 
-public class printKthElementInSpiralFormOfMatrix {
+public class PrintKthElementInSpiralFormOfMatrix {
 	/**
 	 * runtime O(n) space O(1)
 	 * @param arr
