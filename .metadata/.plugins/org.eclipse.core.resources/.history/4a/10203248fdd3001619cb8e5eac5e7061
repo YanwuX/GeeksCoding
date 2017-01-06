@@ -60,4 +60,5 @@ public class fibonacci {
 		System.out.println("Dynamic Top Down: " + fib.fibDynamicTopDown(25));
 		System.out.println("Dynamic Bot Up: " + fib.fibDynamicBotUp(25));
 	}
+
 }
