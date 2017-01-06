@@ -1,6 +1,6 @@
 package geeksForGeeks;
 
-public class sort012 {
+public class Sort012 {
 	
     public static int[] sort(int[] arr) {
         int index = 0;
