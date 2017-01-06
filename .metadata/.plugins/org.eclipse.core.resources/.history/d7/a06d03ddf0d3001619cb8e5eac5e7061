@@ -1,0 +1,15 @@
+package geeksForGeeks;
+
+public class Fibonacci {
+
+	public int fibRecursive(int num){
+		if(num < 2) return num;
+		else return fibRecursive(num - 1) + fibRecursive(num - 2);
+	}
+	
+	public static void main(String[] args) {
+		Fibonacci fib = new Fibonacci();
+		System.out.println(fib.fibRecursive(32));
+	}
+
+}

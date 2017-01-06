@@ -1,0 +1,27 @@
+package geeksForGeeks;
+
+public class Fibonacci {
+
+	public int fibRecursive(int num){
+		if(num < 2) return num;
+		else return fibRecursive(num - 1) + fibRecursive(num - 2);
+	}
+	
+	public int fibIterative(int num){
+		if(num < 2) return num;
+		int result = 1;
+		int temp = 1;
+		for(int i = 0; i < num - 2; ++i) {
+			result += temp;
+			temp = result;
+		}
+		return result;
+	}
+	
+	public static void main(String[] args) {
+		Fibonacci fib = new Fibonacci();
+		System.out.println("recursive: " + fib.fibRecursive(32));
+		System.out.println("iterative: " + fib.fibIterative(48));
+	}
+
+}
