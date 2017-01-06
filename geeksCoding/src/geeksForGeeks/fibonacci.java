@@ -6,6 +6,7 @@ public class fibonacci {
 
 	// 0 1 1 2 3 5 8 13 21...
 	// 0 1 2 3 4 5 6 7 8
+	
 	public int fibRecursive(int num) {
 		if (num < 2)
 			return num;
@@ -60,4 +61,5 @@ public class fibonacci {
 		System.out.println("Dynamic Top Down: " + fib.fibDynamicTopDown(25));
 		System.out.println("Dynamic Bot Up: " + fib.fibDynamicBotUp(25));
 	}
+	
 }
