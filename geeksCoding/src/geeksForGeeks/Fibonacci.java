@@ -2,7 +2,7 @@ package geeksForGeeks;
 
 import java.util.ArrayList;
 
-public class Fibonacci {
+public class fibonacci {
 
 	// 0 1 1 2 3 5 8 13 21...
 	// 0 1 2 3 4 5 6 7 8
@@ -54,7 +54,7 @@ public class Fibonacci {
 	}
 
 	public static void main(String[] args) {
-		Fibonacci fib = new Fibonacci();
+		fibonacci fib = new fibonacci();
 		System.out.println("recursive: " + fib.fibRecursive(25));
 		System.out.println("iterative: " + fib.fibIterative(25));
 		System.out.println("Dynamic Top Down: " + fib.fibDynamicTopDown(25));
