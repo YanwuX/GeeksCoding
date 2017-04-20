@@ -23,7 +23,7 @@ class LIS
        int res, max_ending_here = 1;
  
         /* Recursively get all LIS ending with arr[0], arr[1] ...
-           arr[n-2]. If   arr[i-1] is smaller than arr[n-1], and
+           arr[n-2]. If arr[i-1] is smaller than arr[n-1], and
            max ending with arr[n-1] needs to be updated, then
            update it */
         for (int i = 1; i < n; i++)
@@ -58,7 +58,7 @@ class LIS
     // driver program to test above functions
     public static void main(String args[])
     {
-        int arr[] = { 10, 22, 9, 33, 21, 50, 41, 60 };
+        int arr[] = { 10, 22, 9, 33, 21, 50, 41, 60, 5 };
         int n = arr.length;
         System.out.println("Length of lis is "
                            + lis(arr, n) + "\n");

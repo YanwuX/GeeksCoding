@@ -3,7 +3,9 @@
 <fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlRootElement"/>
 <fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlType"/>
 <fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlElement"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="funTryOuts.XmlReaderJAXB.TestDataJAXB"/>
+<fullyQualifiedTypeName name="javax.swing.event.ListSelectionEvent"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>

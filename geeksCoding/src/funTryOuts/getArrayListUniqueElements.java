@@ -2,7 +2,7 @@ package funTryOuts;
 
 import java.util.ArrayList;
 
-public class getArrayListUniqueElements {
+public class GetArrayListUniqueElements {
 	// get unique elements from array list and return itself as a updated array list
 	public static ArrayList<String> getUniques(ArrayList<String> l){
 		for(int i = 0; i < l.size(); i++) {
@@ -15,8 +15,7 @@ public class getArrayListUniqueElements {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
+
 		ArrayList<String> l = new ArrayList<String>(){
 			// this is intended to see how for loop works.
 			// the second argument of for loop will be executed every time.

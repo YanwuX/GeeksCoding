@@ -1,6 +1,6 @@
 package geeksForGeeks;
 
-public class kthSmallestElement {
+public class KthSmallestElement {
 	
 	public int findKthSmallestElement(int[] arr, int k){
 		if(arr == null || k > arr.length) return 0;
@@ -51,7 +51,7 @@ public class kthSmallestElement {
 
 	public static void main(String[] args) {
 		int arr[] = {12, 1, 3, 2, 5, 7, 4, 19, 26};
-		kthSmallestElement find = new kthSmallestElement();
+		KthSmallestElement find = new KthSmallestElement();
 		System.out.println(find.findKthSmallestElement(arr, 3));
 	}
 

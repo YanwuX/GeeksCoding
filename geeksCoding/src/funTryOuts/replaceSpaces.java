@@ -1,6 +1,6 @@
 package funTryOuts;
 
-public class replaceSpaces {
+public class ReplaceSpaces {
 
 	public static void main(String[] args) {
 

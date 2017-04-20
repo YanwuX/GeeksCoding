@@ -1,6 +1,6 @@
 package geeksForGeeks;
 
-public class largestSubArray {
+public class LargestSubArray {
 
 	public static int maxSubArray(int[] A) {
 

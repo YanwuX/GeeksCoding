@@ -1,6 +1,6 @@
 package funTryOuts;
 
-public class replaceStringWithoutReplaceMethod {
+public class ReplaceStringWithoutReplaceMethod {
 
 	public static void main(String[] args) {
 		String originalString = "This car is my car";
