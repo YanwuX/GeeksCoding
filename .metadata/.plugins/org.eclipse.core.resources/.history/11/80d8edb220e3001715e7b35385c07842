@@ -1,0 +1,57 @@
+package funTryOuts;
+
+import Apple.Pair;
+
+public class SearchInsertPosition {
+
+	public static int doSearchInsertPosition(int[] arr, int target) {
+		
+		if (arr.length == 0 || arr == null) {
+			return -1;
+		}
+		
+		int start = 0;
+		int end = arr.length - 1;
+		int mid = 0;
+		Pair<Integer> index = new Pair<Integer>(Integer.MAX_VALUE, Integer.MIN_VALUE);
+		
+		if (arr[start] > target) {
+			return start;
+		}
+		if (arr[end] < target) {
+			return end + 1;
+		}
+		
+		while (start + 1 < end) {
+			mid = (start + end) / 2;
+			if (arr[mid] == target) {
+				return mid;
+			} else if (target < arr[mid] ) {
+				end = mid;
+				Pair<Integer> temp = new Pair<Integer>(Math.abs(arr[end] - target), end);
+				index = findIndex(index, temp);
+			} else {
+				start = mid;
+				Pair<Integer> temp = new Pair<Integer>(Math.abs(arr[start] - target), start);
+				index = findIndex(index, temp);
+			}
+		}
+		
+		return index.getO2();
+		
+	}
+	
+	private static Pair<Integer> findIndex(Pair<Integer> a, Pair<Integer> b) {
+		if (a.getO1() > b.getO1()) {
+			return b;
+		} else {
+			return a;
+		}
+	}
+	
+	public static void main(String[] args) {
+		System.out.println(doSearchInsertPosition(new int[] {2, 3, 5, 7, 8, 23, 34}, 8));
+		System.out.println(doSearchInsertPosition(new int[] {2, 4, 6, 11}, 5));
+
+	}
+}

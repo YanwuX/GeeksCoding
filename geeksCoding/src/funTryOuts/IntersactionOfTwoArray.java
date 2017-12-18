@@ -1,6 +1,6 @@
 package funTryOuts;
 
-public class IntersactionOfTwoArraY {
+public class IntersactionOfTwoArray {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

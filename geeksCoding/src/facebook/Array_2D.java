@@ -1,6 +1,5 @@
 package facebook;
 
-import sun.rmi.server.InactiveGroupException;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -34,7 +33,7 @@ public class Array_2D {
 
         ArrayList<ArrayList<Integer>> A =  new ArrayList<ArrayList<Integer>>() {
             {
-                add(Arrays.asList(new Integer[]{1, 2, 3, 4}));
+                add(Arrays.asList(1, 2, 3, 4));
             }
         };
 

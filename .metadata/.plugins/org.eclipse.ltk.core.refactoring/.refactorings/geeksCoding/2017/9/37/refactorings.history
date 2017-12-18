@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;funTryOuts.airBnBSayGoodBye&apos; to &apos;AirBnBSayGoodBye&apos;&#x0D;&#x0A;- Original project: &apos;geeksCoding&apos;&#x0D;&#x0A;- Original element: &apos;funTryOuts.airBnBSayGoodBye&apos;&#x0D;&#x0A;- Renamed element: &apos;funTryOuts.AirBnBSayGoodBye&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;airBnBSayGoodBye&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;funTryOuts{airBnBSayGoodBye.java[airBnBSayGoodBye" matchStrategy="1" name="AirBnBSayGoodBye" qualified="false" references="true" similarDeclarations="false" stamp="1505455757370" textual="false" version="1.0"/>
+</session>
