@@ -1,14 +1,15 @@
 package Alibaba;
 
-import static org.junit.Assert.*;
 
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Set;
 
-import org.junit.Test;
 
 import Alibaba.CartesianProduct.recursiveCartesianProduct;
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
 
 
 public class CartesianProductTest {

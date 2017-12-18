@@ -13,7 +13,7 @@ public class LRU {
         map = new LinkedHashMap<Integer, Integer>(capacity, 1.0f, true){
         	@Override
             protected boolean removeEldestEntry(Map.Entry eldest) {
-                return size() > CAPACITY;
+        	    return size() > CAPACITY;
             }
         };
     }
@@ -25,8 +25,8 @@ public class LRU {
     public void add(int key, int value) {
         map.put(key, value);
     }
+
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		LRU lru = new LRU(5);
 		lru.add(1, 1);
@@ -37,6 +37,9 @@ public class LRU {
 		lru.add(6, 6);
 		lru.add(5, 3);
 		lru.add(5, 5);
+		lru.get(5);
+		lru.get(3);
+		lru.get(10);
 	}
 
 }

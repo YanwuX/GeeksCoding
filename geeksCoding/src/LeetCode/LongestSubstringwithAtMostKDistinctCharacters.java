@@ -28,6 +28,7 @@ public class LongestSubstringwithAtMostKDistinctCharacters {
 	}
 
 	public static void main(String[] args) {
+
 		System.out.println(lengthOfLongestSubstringKDistinct("aabbccccc", 2));
 	}
 
