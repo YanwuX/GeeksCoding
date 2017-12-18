@@ -1,4 +1,4 @@
-package Uber;
+package UberSayGoodBye;
 
 public class OverRateException extends Exception {
 	
