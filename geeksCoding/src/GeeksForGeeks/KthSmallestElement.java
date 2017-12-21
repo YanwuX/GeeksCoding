@@ -9,13 +9,11 @@ public class KthSmallestElement {
 	}
 	
 	public int findKthSmallestElement(int[] arr, int k, int l, int r) {
-		System.out.println(arrValue(arr));
 		int pos = partition(arr, 0, r);
 		
 		System.out.println(pos);
-		System.out.println(arrValue(arr));
-		System.out.println();
-		
+//		System.out.println(arrValue(arr));
+
 		if(pos - l == k - 1) return arr[pos];
 		if(pos - l > k - 1) return findKthSmallestElement(arr, k, l, pos - 1);
 		else return findKthSmallestElement(arr, k - pos + l - 1, pos + 1, r);
@@ -41,13 +39,13 @@ public class KthSmallestElement {
 		arr[b] = temp;
 	}
 	
-	public String arrValue(int[] arr){
-		String result = "";
-		for(int i = 0; i < arr.length; ++i){
-			result += arr[i] + " ";
-		}
-		return result;
-	}
+//	public String arrValue(int[] arr){
+//		String result = "";
+//		for(int i = 0; i < arr.length; ++i){
+//			result += arr[i] + " ";
+//		}
+//		return result;
+//	}
 
 	public static void main(String[] args) {
 		int arr[] = {12, 1, 3, 2, 5, 7, 4, 19, 26};

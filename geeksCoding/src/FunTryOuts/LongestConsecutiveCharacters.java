@@ -1,6 +1,6 @@
 package FunTryOuts;
 
-import Apple.Pair;
+import Util.Pair;
 
 public class LongestConsecutiveCharacters {
 	
