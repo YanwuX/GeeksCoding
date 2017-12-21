@@ -31,12 +31,11 @@ public class PrintLevelOrderTraversal {
             int size = q.size();
             for (int i = 0; i < size; ++i) {
                 TreeNode current = q.poll();
+                level.add(current.val);
                 if (current.left != null) {
-                    level.add(current.left.val);
                     q.offer(current.left);
                 }
                 if (current.right != null) {
-                    level.add(current.right.val);
                     q.offer(current.right);
                 }
             }
