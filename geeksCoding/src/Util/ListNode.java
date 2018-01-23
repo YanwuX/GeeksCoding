@@ -1,0 +1,15 @@
+package Util;
+
+public class ListNode {
+	private int value;
+    public ListNode next;
+
+    public ListNode(int v) {
+        this.value = v;
+    }
+
+    public int getValue() {
+        return value;
+    }
+    
+}

@@ -1,0 +1,29 @@
+package Util;
+
+public class ListNode {
+	private int value;
+    public ListNode next;
+	StringBuilder sb = new StringBuilder();
+
+
+    public ListNode(int v) {
+        this.value = v;
+    }
+
+    public int getValue() {
+        return value;
+    }
+    
+    @Override
+    public String toString() {
+    	if (next == null) {
+    		return "";
+    	} else {
+        	while (next != null) {
+        		sb.append(value);
+        		sb.append(" ");
+        	}
+        	return sb.toString();
+    	}
+    }
+}
