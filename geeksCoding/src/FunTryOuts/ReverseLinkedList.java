@@ -12,8 +12,8 @@ public class ReverseLinkedList {
 		
 		ListNode ret = null;
 		while(head != null) {
-			ListNode temp = head.next;
-			head.next = ret;
+			ListNode temp = head.getNext();
+			head.setNext(ret);
 			ret = head;
 			head = temp;
 				
@@ -21,7 +21,43 @@ public class ReverseLinkedList {
 		return ret;
 		
 	}
-
+	
+	public static ListNode reverseLinkedListBetween(ListNode head, int start, int end) {
+		if (head == null || start > end) {
+			return new ListNode(0);
+		}
+		
+		ListNode retNode = new ListNode(0);
+		retNode.setNext(head);
+		
+		head = retNode;
+		
+		ListNode startNode;
+		ListNode preStart;
+		int counter = 0;
+		while(head != null && counter < start) {
+			head = head.getNext();
+			counter ++;
+		}
+		
+		preStart = head;
+		startNode = head.getNext();
+		ListNode endNode = startNode, postEnd = startNode.getNext();
+		counter = start;
+		while(startNode != null && counter < end) {
+			ListNode temp = postEnd.getNext();
+			postEnd.setNext(endNode);
+			endNode = postEnd;
+			postEnd = temp;
+			counter ++;
+		}
+		startNode.setNext(postEnd);
+		preStart.setNext(endNode);
+		
+		return retNode.getNext();
+		
+	}
+	
 	public static void main(String[] args) {
 		ListNode a = new ListNode(1);
 		ListNode b = new ListNode(2);
@@ -29,12 +65,13 @@ public class ReverseLinkedList {
 		ListNode d = new ListNode(4);
 		ListNode e = new ListNode(5);
 		
-		a.next = b;
-		b.next = c;
-		c.next = d;
-		d.next = e;
-		
-		reverseLinkedList(a);
+		a.setNext(b);
+		b.setNext(c);
+		c.setNext(d);
+		d.setNext(e);
+		System.out.println(a.toString());
+		System.out.println(reverseLinkedList(a).toString());
+		System.out.println(reverseLinkedListBetween(a, 1, 2));
 	}
 
 }
