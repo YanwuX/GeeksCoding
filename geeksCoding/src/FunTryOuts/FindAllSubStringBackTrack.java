@@ -21,7 +21,7 @@ public class FindAllSubStringBackTrack {
 	}
 
 	public static void main(String[] args) {
-		printAllSubString("abc");
+		printAllSubString("aabc");
 		
 	}
 
