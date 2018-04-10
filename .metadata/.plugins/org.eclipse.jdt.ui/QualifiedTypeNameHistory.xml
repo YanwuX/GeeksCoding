@@ -10,10 +10,8 @@
 <fullyQualifiedTypeName name="javax.swing.text.html.parser.Entity"/>
 <fullyQualifiedTypeName name="java.util.Map.Entry"/>
 <fullyQualifiedTypeName name="java.util.Comparator"/>
-<fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="java.util.Set"/>
 <fullyQualifiedTypeName name="java.util.HashSet"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.Iterator"/>
 <fullyQualifiedTypeName name="Alibaba.CartesianProduct.recursiveCartesianProduct"/>
 <fullyQualifiedTypeName name="Apple.Pair"/>
@@ -22,6 +20,21 @@
 <fullyQualifiedTypeName name="Util.ListNode.Node"/>
 <fullyQualifiedTypeName name="Util.ListNode"/>
 <fullyQualifiedTypeName name="java.util.Collections"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.util.LinkedHashSet"/>
+<fullyQualifiedTypeName name="javax.ws.rs.DELETE"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="leanTaas.pms.dao.Projector"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="org.glassfish.jersey.internal.guava.Lists"/>
+<fullyQualifiedTypeName name="java.util.Calendar"/>
+<fullyQualifiedTypeName name="leanTaas.pms.util.Pair"/>
+<fullyQualifiedTypeName name="javax.ws.rs.PathParam"/>
+<fullyQualifiedTypeName name="javax.ws.rs.Consumes"/>
+<fullyQualifiedTypeName name="leanTaas.pms.dao.Reservation"/>
+<fullyQualifiedTypeName name="java.util.logging.Logger"/>
+<fullyQualifiedTypeName name="leanTaas.pms.repo.PmsRepositoryService"/>
+<fullyQualifiedTypeName name="leanTaas.pms.dao.ProjectorService"/>
+<fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>

@@ -8,6 +8,7 @@ import java.util.List;
 import leanTaas.pms.dao.Reservation;
 
 /**
+ * SimpleAPI Interface
  * @author Yanwu_Alienware
  *
  */

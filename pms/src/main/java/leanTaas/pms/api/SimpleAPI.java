@@ -11,23 +11,35 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
 import leanTaas.pms.dao.Reservation;
-import leanTaas.pms.repo.PmsRepository;
+import leanTaas.pms.repo.PmsRepositoryService;
+
+/***
+ * SimpleAPI class contains APIs for projector management system
+ * @author Yanwu_Alienware
+ *
+ */
+
 @Path("")
 public class SimpleAPI implements SimpleAPIInterface {
 	
-	private PmsRepository repo = PmsRepository.getRepository();
+	// working as a database
+	private PmsRepositoryService repo = new PmsRepositoryService();
 	
+	/***
+	 * Get all projectors
+	 */
 	@GET
 	@Path("projectors")
     @Produces(MediaType.APPLICATION_JSON)
 	@Override
 	public List<String> getProjector() {
-		for (String s : repo.getProjects()) {
-			System.out.println(s);
-		}
 		return repo.getProjects();
 	}
 	
+	/***
+	 * Post reservation to projector
+	 * @param Reservation contains projector ID, start and end date/time 
+	 */
 	@POST
 	@Path("reservation")
     @Produces(MediaType.APPLICATION_JSON)
@@ -37,6 +49,9 @@ public class SimpleAPI implements SimpleAPIInterface {
 		return repo.postReservation(reservation);
 	}
 	
+	/***
+	 * Get existing reservation
+	 */
 	@GET
 	@Path("projectors/{id}")
     @Produces(MediaType.TEXT_PLAIN)
@@ -44,7 +59,10 @@ public class SimpleAPI implements SimpleAPIInterface {
 	public String getReservation(@PathParam("id") String id) {
 		return repo.getReservation(id);
 	}
-	
+
+	/***
+	 * Cancel a existing reservation
+	 */
 	@DELETE
 	@Path("reservation/{id}")
     @Produces(MediaType.TEXT_PLAIN)

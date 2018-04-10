@@ -1,5 +1,11 @@
 package leanTaas.pms.util;
 
+/***
+ * A pair class that contains two object with same type.
+ * @author Yanwu_Alienware
+ *
+ * @param <T>
+ */
 public class Pair<T> {
 	
 	T o1;

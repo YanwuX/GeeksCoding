@@ -2,6 +2,11 @@ package leanTaas.pms.dao;
 
 import java.util.Date;
 
+/***
+ * Reservation class contains reservation information
+ * @author Yanwu_Alienware
+ *
+ */
 public class Reservation {
 	
 	private String id;
