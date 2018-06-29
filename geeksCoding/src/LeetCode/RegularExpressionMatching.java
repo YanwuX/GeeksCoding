@@ -1,4 +1,4 @@
-package LeetCode.DynamicProgram;
+package LeetCode;
 
 enum Result {
     TRUE, FALSE
