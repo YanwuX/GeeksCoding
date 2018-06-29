@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/geeksCoding/geeksCoding.iml" filepath="$PROJECT_DIR$/geeksCoding/geeksCoding.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pms/src/main/main.iml" filepath="$PROJECT_DIR$/pms/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pms/pms.iml" filepath="$PROJECT_DIR$/pms/pms.iml" />
     </modules>
   </component>
 </project>
