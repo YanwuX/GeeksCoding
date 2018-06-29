@@ -19,7 +19,7 @@ public class LevelOrderTraversal {
         Queue<Node> q = new LinkedList<Node>();
 	    q.offer(root);
 
-	    while(!result.isEmpty()) {
+	    while(!q.isEmpty()) {
 	        ArrayList<Integer> level = new ArrayList<>();
 	        int size = q.size();
 	        for (int i = 0; i< size; ++i) {
